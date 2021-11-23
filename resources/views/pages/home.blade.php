@@ -29,7 +29,7 @@
                 <img src="{{url('frontend/img/backgrounds/pexels-photo-2582931.jpeg')}}" alt="slider-image"/>                
             </div>
 
-            <div class="item 2">
+            <div class="item">
                 <div class="carousel-caption wrapper">
                     <div class="row">
                         <div class="col-md-12">
