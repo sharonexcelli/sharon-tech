@@ -20,8 +20,8 @@
                 </li>
                 <li><a href="#"><i class="fa fa-pinterest"></i></a>
                 </li> --}}
-                <li><a href="#"><i class="fa fa-google"></i></a>
-                </li>
+                {{-- <li><a href="#"><i class="fa fa-google"></i></a>
+                </li> --}}
             </ul>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 copyright-bottom">
