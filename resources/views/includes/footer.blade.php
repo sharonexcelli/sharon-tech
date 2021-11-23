@@ -25,7 +25,7 @@
             </ul>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 copyright-bottom">
-            <span class="copyright">Copyright &copy; 2021 Sharon Tech Tips. All Rights Reserved.</span>
+            <span class="copyright">Copyright &copy; 2021 Sharon Tech. All Rights Reserved.</span>
         </div>
     </div>
 </footer>
