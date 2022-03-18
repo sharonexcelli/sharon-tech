@@ -8,12 +8,12 @@
 
         <ol class="carousel-indicators">
             <li data-target="#myCarousel-one" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel-one" data-slide-to="1"></li>       
+            <li data-target="#myCarousel-one" data-slide-to="1"></li>
         </ol>
 
         <div class="carousel-inner">
 
-            <div class="item active"> 
+            <div class="item active">
                 <div class="carousel-caption wrapper">
                     <div class="row">
                         <div class="col-md-12">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="{{url('frontend/img/backgrounds/pexels-photo-2582931.jpeg')}}" alt="slider-image"/>                
+                <img src="{{url('frontend/img/backgrounds/pexels-photo-2582931.jpeg')}}" alt="slider-image"/>
             </div>
 
             <div class="item">
@@ -44,7 +44,7 @@
                 </div>
                 <img src="{{url('frontend/img/backgrounds/pexels-photo-2588757.jpg')}}" alt="slider-image"/>
             </div>
-            
+
                 <!-- Controls -->
                 <a class="myCarousel-one-left" href="#myCarousel-one" data-slide="prev">
                     <i class="fa fa-angle-left"></i>
@@ -68,13 +68,13 @@
         <div class="row text-center">
             <!-- First row services -->
             <div class="row first-services">
-                <div class="col-sm-12 col-md-4 service">                      
-                    <i class="ri ri-computer-line"></i> 
+                <div class="col-sm-12 col-md-4 service">
+                    <i class="ri ri-computer-line"></i>
                     <h4 class="service-heading">Service Komputer</h4>
                     <p class="text-services">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-sm-12 col-md-4 service">
-                    <i class="ri ri-macbook-line"></i>                                       
+                    <i class="ri ri-macbook-line"></i>
                     <h4 class="service-heading">Service Laptop</h4>
                     <p class="text-services">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
@@ -502,28 +502,28 @@
         <div class="row">
             <div class="col-lg-6 text-center">
                 <h2 class="section-heading">Contact Form</h2>
-                <h3 class="section-subheading">Jika Anda memerlukan bantuan silahkan kirim pesan , kami siap membantu Anda</h3>
+                <h3 class="section-subheading">Jika Anda memerlukan bantuan silahkan kirim pesan, kami siap membantu Anda</h3>
             </div>
             <div class="col-md-6">
-                            <div class="company-address col-sm-6 col-md-6">  
-                                <address>
-                                    Sharon Tech
-                                    <br>
-                                    <span id="map-input">
-                            
-                                Perumahan Bumi Pertiwi 1,<br>
-                                Jalan Belitung Blok AH-18, Cilebut, Bogor, Jawa Barat</span>
-                                    <br>
-                                </address>
-                            </div>
-                            <div class="company-contact col-sm-6 col-md-6">
-                                <address>Email Kami
-                                    <br>
-                                    <a href="mailto:sharonexcellilauder@gmail.com">sharonexcellilauder@gmail.com</a>
-                                    <br>
-                                    <a href="mailto:sharonexcellilauder@yahoo.com">sharonexcellilauder@yahoo.com</a>
-                                </address>
-                            </div>
+                <div class="company-address col-sm-6 col-md-6">
+                    <address>
+                        Sharon Tech
+                        <br>
+                        <span id="map-input">
+
+                    Perumahan Bumi Pertiwi 1,<br>
+                    Jalan Belitung Blok AH-18, Cilebut, Bogor, Jawa Barat</span>
+                        <br>
+                    </address>
+                </div>
+                <div class="company-contact col-sm-6 col-md-6">
+                    <address>Email Kami
+                        <br>
+                        <a href="mailto:sharonexcellilauder@gmail.com">sharonexcellilauder@gmail.com</a>
+                        <br>
+                        <a href="mailto:sharonexcellilauder@yahoo.com">sharonexcellilauder@yahoo.com</a>
+                    </address>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -547,20 +547,20 @@
                                 <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
-                        
+
 
                             <div id="success"></div>
                             <button type="submit" class="btn btn-xl">Send Message</button>
-                            
+
                         </div>
                         <div class="col-md-6">
                             <div id="map-canvas">
-                                
+
                             </div>
-                            </div>   
-                            
+                            </div>
+
                         <div class="clearfix"></div>
-                        
+
                     </div>
                 </form>
             </div>

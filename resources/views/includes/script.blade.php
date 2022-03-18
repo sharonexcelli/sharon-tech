@@ -15,6 +15,22 @@
 <!-- Isotope -->
 <script type="text/javascript" src="{{url('frontend/js/jquery.isotope.min.js')}}"></script>
 <!-- Google Map -->
-<script src="http://maps.googleapis.com/maps/api/js?extension=.js&output=embed"></script>
+{{-- <script src="http://maps.googleapis.com/maps/api/js?extension=.js&output=embed"></script> --}}
+<script>
+    function initMap() {
+        var location = {lat: -6.537454, lng: 106.802547};
+        var map = new google.maps.Map(document.getElementById("map-canvas"), {
+            zoom: 16,
+            center: location
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSTa3N5nvh9RFchc_YWMoZ3s_4jfT69Mk&callback=initMap"></script>
 <!-- Footer Reveal scirt -->
 <script src="{{url('frontend/js/footer-reveal.js')}}"></script>
+
